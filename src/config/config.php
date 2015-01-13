@@ -8,18 +8,27 @@
 return [
 
     /**
-     * Supported Drivers
+     * Supported Gateways
      * Zarinpal
      */
     'default' => 'Zarinpal',
 
     'gateways' => [
 
-        'Payline' => [
+        /**
+         * Payline payment gateway
+         */
+        'Payline' => [],
+
+        /**
+         * JahanPay Payement gateway
+         */
+        'JahanPay' => [],
 
 
-        ],
-
+        /**
+         * zarinpal payment gateway
+         */
         'Zarinpal' => [
 
             /**
@@ -38,7 +47,7 @@ return [
             'callback_url' => 'CALLBACK_URL_HERE',
 
             /**
-             * WSDL URL
+             *   WSDL URL
              *   https://ir.zarinpal.com/pg/services/WebGate/wsdl
              *      OR
              *   https://de.zarinpal.com/pg/services/WebGate/wsdl
