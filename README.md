@@ -7,3 +7,4 @@ gateway processor package for IRAN shetab system
 - write tests
 - improve documentation
 - improve architecture
+- manage exceptions
