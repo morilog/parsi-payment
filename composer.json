@@ -1,0 +1,27 @@
+{
+    "name": "laratalks/parsi-payment",
+    "description": "gateway processor package for IRAN shetab system",
+    "license": "GPL",
+    "keywords": ["laravel", "shetab", "payment", "iran", "gateway"],
+    "authors": [
+        {
+            "name": "Morilog",
+            "email": "m.parvini@outlook.com"
+        },
+        {
+            "name": "bigsinoos",
+            "email": "pcfeeler@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload":{
+    	"psr-4": {
+    		"Laratalks\\ParsiPayment\\": "src/"
+    	}
+    },
+    
+    "minimum-stability": "dev"
+}
