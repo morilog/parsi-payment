@@ -1,3 +1,5 @@
+This package no longer maintined, use [laratalks/payment-gateways](http://github.com/laratalks/payment-gateways)
+
 # parsi-payment
 gateway processor package for IRAN shetab system
 
